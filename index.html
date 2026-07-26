@@ -13,7 +13,7 @@
       <h4>Press download to get started </h4>
       
      <div class="container">
-      <button id="myButton"; onclick="showConfirmation"; onclick="showAlert"; class="testbtn"; onclick="scrollToTarget('apk')">Download</button>
+      <button class="testbtn"; onclick="scrollToTarget('apk')">Download</button>
      <script>
      function scrollToTarget(id) {
      document.getElementById(id).scrollIntoView({ 
@@ -21,18 +21,6 @@
      block: 'start' 
      });
      }
-
-          const button = document.getElementById("myButton"); 
-     button.addEventListener("click", function() {
-     const userConfirmed = confirm("Are you sure you want to proceed?");
-     if (userConfirmed) {
-     	alert("Action confirmed! Proceeding...");
-     } else {
-     	alert("okay");
-     	window.close();
-     }
-     });
-        
      </script>
      </div>
       
