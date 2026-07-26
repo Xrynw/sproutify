@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>GrowYourSelf</title>
+      <link rel="stylesheet" href="./style.css">
+   </head>
+   
+   <body> 
+      <h6><img src="Logo.png"; alt="Naic Senior High School Stand Alone Logo";> Naic Senior High School Stand Alone </h6>
+      <h1>Welcome to LeafPedia website!</h1>
+      <h4>Press download to get started </h4>
+      
+     <div class="container">
+      <button class="testbtn"; onclick="scrollToTarget('apk')">Download</button>
+     <script>
+     function scrollToTarget(id) {
+     document.getElementById(id).scrollIntoView({ 
+     behavior: 'smooth', 
+     block: 'start' 
+     });
+     }
+     </script>
+     </div>
+      
+     <div style="height: 200vh;"></div>
+     
+     <div class="download">  
+     <p>
+     <a href="#" style="background-color:#ceffc9;
+     					color: black;
+     					font-size: 15px;
+     					border: 2px solid #5ea658;
+     					border-radius:5px; 
+     					box-shadow: 4px 4px 0px rgba(0,0,0,0.32);
+     					padding: 30px 90px; 
+     					display: inline-block; "> Leafpedia-v1-0.apk </a> </p>
+     </div>
+     
+     <h1 id="apk"></h1>
+     <div style="height: 20vh;"></div>  
+     
+   </body>
+</html>
