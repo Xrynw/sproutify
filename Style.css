@@ -1,0 +1,87 @@
+.testbtn {
+     background-color: #04AA6D;
+     box-shadow:5px 5px 0px 0 rgba(0,0,0,0.5);
+     color: white;
+     font-size: 30px;
+     padding: 25px; 
+     border: none;
+     border-radius: 50px;
+     transition-duration: 0.1s;
+     cursor: pointer;
+     margin: 0%;
+}
+
+.testbtn:hover {
+     background-color: #066944;
+}
+
+.container {
+     display: flex;
+     justify-content: center;
+     align-items: center;    
+     height: 50vh;              
+     }
+     
+     
+h6 { 
+     background-color:#b1bdb9;
+     border-radius:50px;
+     display:flex;
+     align-items:center;
+     font-family:Arial;
+     text-shadow: 1px 1px 0px rgba(0,0,0,0.32);
+     justify-content:center;
+     text-align:center;
+}
+     
+img {    
+     float:start;
+     width:40px;
+     length:40px;
+}
+
+h1 { 
+     color: white;
+     font-family: Times New Roman;
+     margin-bottom: 30px; 
+     margin-top: 30px; 
+     text-align: center;
+     text-shadow: 1px 1px 0px rgba(0,0,0,0.32);
+}
+
+.download {
+	text-align: center;
+	
+	
+	
+}	
+	
+	
+
+
+h4 { 
+     font-family: "Lucida Console", "Courier New", monospace;
+     margin-top: 0%;
+     margin-bottom: 0%; 
+     text-align: center;
+     text-shadow: 1px 1px 0px rgba(0,0,0,0.32);
+
+}
+
+
+body { 
+     background-color: #91db91;
+     background-image: url("Leaf.png");
+     background-repeat: repeat;
+     background-size: 100%;
+     background-position:center;
+     animation: move 180s linear infinite;
+     animation-direction:normal;
+}
+
+@keyframes move {
+     100% {background-position:initial;
+     }
+     100% {background-position:-1000px 0px;
+     }
+}
