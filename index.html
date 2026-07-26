@@ -21,6 +21,18 @@
      block: 'start' 
      });
      }
+
+          const button = document.getElementById("myButton"); 
+     button.addEventListener("click", function() {
+     const userConfirmed = confirm("Are you sure you want to proceed?");
+     if (userConfirmed) {
+     	alert("Action confirmed! Proceeding...");
+     } else {
+     	alert("okay");
+     	window.close();
+     }
+     });
+        
      </script>
      </div>
       
